@@ -1,0 +1,13 @@
+﻿@model ViewViewModel
+
+<div class="row">
+    <div class="col-md-6 offset-md-3 jumbotron">
+        <h4>Please enter the password for this image:</h4>
+        <form method="post" action="/home/viewimage">
+            <input type="hidden" name="id" value="" />
+            <input type="text" class="form-control" placeholder="Password" name="password" />
+            <br />
+            <button class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
