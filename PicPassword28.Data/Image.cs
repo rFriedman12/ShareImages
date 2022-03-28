@@ -12,5 +12,6 @@ namespace PicPassword28.Data
         public string FileName { get; set; }
         public string FilePath { get; set; }
         public string Password { get; set; }
+        public int Views { get; set; }
     }
 }
